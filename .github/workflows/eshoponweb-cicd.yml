@@ -8,8 +8,8 @@ env:
   RESOURCE-GROUP: AZ-400-Training
   LOCATION: uksouth
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  #SUBSCRIPTION-ID: ${{ secrets.AZURE_CREDENTIALS.subscriptionId }}
-  SUBSCRIPTION-ID: c2c1b8b8-dfbb-4290-a320-b5da2443a9e0
+  SUBSCRIPTION-ID: ${{ secrets.AZURE_CREDENTIALS.subscriptionId }}
+  #SUBSCRIPTION-ID: c2c1b8b8-dfbb-4290-a320-b5da2443a9e0
   WEBAPP-NAME: az400-webapp-WFR
 
 
